@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">DroidLink</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register"><u>Register</u></string>
+    <string name="connect">Connect</string>
+    <string name="l">l</string>
+    <string name="colon">:</string>
+    <string name="remote_id">Remote Ip</string>
+    <string name="connect_to">Connect</string>
+    <string name="generate_id">Generate Id</string>
+    <string name="password">Password</string>
+    <string name="_172_168_23_46">172.168.23.46</string>
+    <string name="your_id">Your Id</string>
+    <string name="connected">connected</string>
+    <string name="stop">stop</string>
+    <string name="start_server">Start Server</string>
+    <string name="username">username</string>
+    <string name="login">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="droid">Droid</string>
+    <string name="link">Link</string>
+    <string name="sign_in_text">Sign-In</string>
+    <string name="donot_hava_an_account">Donot hava an Account ?</string>
+    <string name="sign_up_here">Sign Up Here !</string>
+    <string name="_192_168_1_1">192.168.1.1</string>
+    <string name="sign_in_here">Sign In Here !</string>
+    <string name="device_name">Device Name</string>
+    <string name="ip_192_168_1_67">ip: 192.168.1.67</string>
+    <string name="add_device">Add Device</string>
+    <string name="clear_database">Clear Database</string>
+    <string name="delete">Delete</string>
+    <string name="copy_host">Copy Host</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="edit_ip">Edit Ip</string>
+
+    <!--Added Strings-->
+    <string name="main_activity_title">droidNet Admin Panel</string>
+    <string name="main_activity_settings">Settings</string>
+    <string name="main_activity_settings_port">Port</string>
+    <string name="main_activity_settings_port_not_listening">Inbound connections disabled</string>
+    <string name="main_activity_settings_password">Password</string>
+    <string name="main_activity_settings_access_key">Access Key</string>
+    <string name="main_activity_settings_start_on_boot">Start on Boot</string>
+    <string name="main_activity_settings_start_on_boot_delay">Start Delay (s)</string>
+
+    <string name="main_activity_settings_view_only">View Only</string>
+    <string name="main_activity_settings_show_pointers">Mouse Cursors</string>
+    <string name="main_activity_permissions_dashboard">Permissions Dashboard</string>
+    <string name="main_activity_colon">:</string>
+    <string name="main_activity_screen_capturing">Screen Capturing</string>
+    <string name="main_activity_unknown">unknown</string>
+    <string name="main_activity_granted">granted</string>
+    <string name="main_activity_denied">denied</string>
+    <string name="main_activity_file_access">File Access</string>
+    <string name="main_activity_input">Input</string>
+    <string name="main_activity_address">The server is now reachable at</string>
+    <string name="main_activity_not_listening">The server is not listening for incoming connections.</string>
+    <string name="main_activity_outbound_text">You can make outbound connections:</string>
+    <string name="main_activity_reverse_vnc_button">Connect to a listening viewer</string>
+    <string name="main_activity_reverse_vnc_hint">Host:Port</string>
+    <string name="main_activity_reverse_vnc_success">Connection to %1$s:%2$d succeeded</string>
+    <string name="main_activity_reverse_vnc_fail">Connection to %1$s:%2$d failed</string>
+    <string name="main_activity_repeater_vnc_button">Connect to a repeater</string>
+    <string name="main_activity_repeater_vnc_hint">Host:Port</string>
+    <string name="main_activity_repeater_vnc_hint_id">ID on Repeater</string>
+    <string name="main_activity_repeater_vnc_success">Connection to %1$s:%2$d with ID %3$s succeeded</string>
+    <string name="main_activity_repeater_vnc_fail">Connection to %1$s:%2$d with ID %3$s failed</string>
+    <string name="main_activity_repeater_vnc_input_missing">Host and/or ID missing</string>
+    <string name="main_activity_special_key_reference">From a VNC viewer, <b>Ctrl-Shift-Esc</b> triggers \'Recent Apps\' overview, <b>Home/Pos1</b> acts as Home button, <b>Escape</b> acts as Back button.</string>
+    <string name="main_activity_about">This is droidNet %1$s. Please note that more features are still being added to droidVNC-NG. In particular, most keyboard strokes as of now can only be input via the Android soft keyboard, there is only limited support for keyboard events from VNC viewers (yet). Please report any issues and feature requests at https://github.com/codenow/droidNet</string>
+    <string name="main_service_notification_not_listening">Not listening for incoming connections</string>
+    <plurals name="main_service_notification_listening">
+        <item quantity="one">Listening on port %1$d, %2$d client connected</item>
+        <item quantity="other">Listening on port %1$d, %2$d clients connected</item>
+    </plurals>
+    <string name="start">Start</string>
+    <string name="error">Error</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="or">or</string>
+    <string name="input_a11y_service_description">This allows droidNet to post input events to the Android operating system, thus allowing remote control from a connected VNC viewer. All entered input is directly posted to Android, no input is logged, saved or shared.</string>
+    <string name="input_a11y_title">Accessibility disabled</string>
+    <string name="input_a11y_msg">To be able to remotely control your device, you need to enable accessibility for droidNet. Do you want to enable accessibility now?</string>
+    <string name="input_a11y_act_not_found_msg">Could not find the default accessibility settings activity. Please enable droidNet in system accessibility settings manually.</string>
+    <string name="write_storage_title">File access disabled</string>
+    <string name="write_storage_msg">To be able to transfer files to and from your device, you need to enable file access for droidVNC-NG. Do you want to enable file access now?</string>
+    <string name="write_storage_msg_android_11">To be able to transfer files to and from your device, you need to enable file access for droidNet. Please note that saving files will only be possible in the \'Download\' and \'Documents\' directories. Do you want to enable file access now?</string>
+    <string name="notification_title">Notifications disabled</string>
+    <string name="notification_msg">To be able to show server status information and provide a means of navigating back to the admin panel more easily, it is recommended to enable notifications. Do you want to enable notifications now?</string>
+    <string name="accessibility_service_label">Droidlink service</string>
+    <string name="accessibility_service_description">service description\n</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Viewer Added-->
+
+    <string name="font_name_montserrat">montserrat</string>
+    <string name="font_name_montserrat_bold">montserrat_bold</string>
+
+    <string name="email_id">Email ID</string>
+
+    <string name="create_account_register_yourself">Create Account, register yourself</string>
+
+    <string name="full_name">Full Name</string>
+
+    <string name="already_registered_login">Already registered, Login</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="Name">Name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="address_caption">Address</string>
+    <string name="alt_check">Alt</string>
+    <string name="arrow_down">Down Arrow</string>
+    <string name="arrow_left">Left Arrow</string>
+    <string name="arrow_right">Right Arrow</string>
+    <string name="arrow_up">Up Arrow</string>
+    <string name="auto">Auto</string>
+    <string name="button_send_text">Send Text</string>
+    <string name="button_send_without_saving">Send TextD Donot Save It</string>
+    <string name="center_mouse">Mouse @</string>
+    <string name="close">Close</string>
+    <string name="color_format_caption">Color Format</string>
+    <string name="color_mode">Color Mode</string>
+    <string name="connect_button">Connect</string>
+    <string name="connection_caption">Connection</string>
+    <string name="control_check">Ctrl</string>
+    <string name="copy_list_button">Copy List</string>
+    <string name="ctrl_alt_del">Ctrl-Alt-Del</string>
+    <string name="delete_connection">Delete Connection</string>
+    <string name="delete_key">Delete Selected Key</string>
+    <string name="delete_key_list">Delete Key List</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="export_settings">Export</string>
+    <string name="export_settings_path">Export to file</string>
+    <string name="enter_text_title">Enter Text to Send</string>
+    <string name="enter_text">Send text</string>
+    <string name="fit_to_screen">Fit to Screen</string>
+    <string name="force_full_check">Force full-screen bitmap</string>
+    <string name="import_export_settings">Import/Export Settings</string>
+    <string name="import_settings">Import</string>
+    <string name="import_settings_file_url">Import from file or URL</string>
+    <string name="info">Info</string>
+    <string name="intro_text">If you need help, please check the &lt;a href="http://code.google.com/p/android-vnc-viewer/wiki/Documentation"&gt;manual&lt;/a&gt; (press phone\'s Menu button to access manual and other menu items), or the &lt;a href="http://code.google.com/p/android-vnc-viewer/wiki/faq"&gt;FAQ&lt;/a&gt;.&lt;br&gt;</string>
+    <string name="intro_title">Welcome</string>
+    <string name="intro_version_text">&lt;br&gt;--Sent text is remembered across sessions (optionally)&lt;br&gt;--Import/Export settings to file&lt;br&gt;--Button with zoom controls to bring up keyboard&lt;br&gt;--Can force tiling mode (very large screens)</string>
+    <string name="input_mode">Input Mode</string>
+    <string name="input_mode_fit_to_screen">No Pan; Trackball Mouse</string>
+    <string name="input_mode_mouse">Mouse Pointer Control Mode</string>
+    <string name="input_mode_panning">Desktop Panning Mode</string>
+    <string name="input_mode_touchpad_pan_trackball_mouse">Touch Pan; Trackball Mouse</string>
+    <string name="input_mode_dpad_pan_touchpad_mouse">Touch Mouse; D-Pad Pan</string>
+    <string name="input_mode_touch_pan_zoom_mouse">Touch Mouse Pan and Zoom</string>
+    <string name="input_mode_touchpad">Touchpad</string>
+    <string name="keep_password_button">Keep</string>
+    <string name="intro_dont_show">Don\'t show again</string>
+    <string name="keys_caption">Keys</string>
+    <string name="list_caption">List</string>
+    <string name="list_name_caption">List Name</string>
+    <string name="local_mouse_check">Local mouse pointer</string>
+    <string name="meta_key_title">Send Special Keys</string>
+    <string name="mouse_follow_pan">Mouse follow pan</string>
+    <string name="new_list_button">New List</string>
+    <string name="nickname_caption">Nickname</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="one_to_one">1:1</string>
+    <string name="open_doc">Manual/Wiki</string>
+    <string name="pan_follow_mouse">Pan Follows Mouse</string>
+    <string name="password_caption">Password</string>
+    <string name="port_caption">Port</string>
+    <string name="repeater_button">Repeater</string>
+    <string name="repeater_caption">Enter the repeater address &lt;b&gt;only if&lt;/b&gt; you are using an&lt;br&gt;&lt;i&gt;UltraVNC&lt;/i&gt;-type repeater</string>
+    <string name="repeater_clear">Don\'t use repeater</string>
+    <string name="repeater_dialog_title">Repeater Information</string>
+    <string name="repeater_empty_text">No repeater</string>
+    <string name="repeater_save">Use this repeater address</string>
+    <string name="save_as_copy">Save as Copy</string>
+    <string name="scaling">Scaling</string>
+    <string name="scaling_zoomable">Zoomable</string>
+    <!-- Send selected metakey -->
+    <string name="send_button">Send</string>
+    <string name="send_key_again">Send Key Again</string>
+    <string name="shift_check">Shift</string>
+    <string name="shortcut_label">VNC Connection</string>
+    <string name="showkbd_label">Keyboard</string>
+    <string name="special_keys">Send Keys</string>
+    <string name="username_caption">Username</string>
+    <string name="username_hint">For Windows Authentication</string>
+    <string name="permdesc_open_vnc_conn">Launch custom VNC connections</string>
+    <string name="input_mode_hardware_mouse">Hardware Mouse Mode</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+
+    <string name="slide_1_title">Welcome!</string>
+    <string name="slide_1_desc">Virtual Smartphone over IP</string>
+
+    <string name="slide_2_title">Power of processing in Pocket</string>
+
+    <string name="slide_3_title">Take Control</string>
+    <string name="slide_3_desc">Use device screen as trackpad\n to accurately control a server</string>
+
+    <string name="slide_4_title">Get started</string>
+    <string name="slide_4_desc">Run Heavy Apps without worries</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="logout">Logout</string>
+    <string name="priviledged">Privileged</string>
+    <string name="non_priviledged">Non-Privileged</string>
+    <string name="click_on_connect_you_will_shortly_avail_service">Click on connect you will shortly avail service</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connection">Connection</string>
+    <string name="credentials">Credentials</string>
+    <string name="port_number">Port Number</string>
+    <string name="ip_address">Ip-Address</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="server_name">Server Name</string>
+    <string name="access_key">Access Key</string>
+    <string name="options">Options</string>
+    <string name="start_on_boot">Start On Boot</string>
+    <string name="start_bootdelay">Boot Delay</string>
+    <string name="zero">0</string>
+    <string name="screen_capturing">Screen Capture</string>
+    <string name="denied">Denied</string>
+    <string name="input_gesture">Input Gesture</string>
+    <string name="media_access">Media Access</string>
+    <string name="repeater">Repeater</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="show_menu_overlay">Menu Overlay</string>
+    <string name="automatic_login">Auto Login</string>
+    <string name="menu">Menu</string>
+    <string name="exit">Exit</string>
+    <string name="ok">Ok</string>
+
+    <integer-array name="array_dot_active">
+        <item>@color/blue</item>
+        <item>@color/theme_color</item>
+        <!-- Add more color items as needed -->
+    </integer-array>
+
+    <integer-array name="array_dot_inactive">
+        <item>@color/theme_color</item>
+        <item>@color/blue</item>
+        <!-- Add more color items as needed -->
+    </integer-array>
+
+</resources>

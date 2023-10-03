@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598879042083",
+    "project_id": "droidlink-9ea60",
+    "storage_bucket": "droidlink-9ea60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598879042083:android:ed13f1f83aba9879268f96",
+        "android_client_info": {
+          "package_name": "com.codenow.droidlink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrR2bYRGhXJQkEhumudEJWnSTPhM4PPLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

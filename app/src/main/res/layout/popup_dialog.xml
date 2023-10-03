@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:background="@drawable/popup_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_relative">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/first_linear"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/textTitle"
+                    android:text="Title"
+                    android:layout_marginStart="10dp"
+                    android:padding="10dp"
+                    android:textColor="@color/theme_color"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/error_image"
+                android:visibility="gone"
+                app:tint="@color/theme_color" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/first_linear"
+            android:background="@color/primary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thiś is the Message"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/text_message"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/buttonYes"
+                android:text="@string/ok"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/button_background2"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
